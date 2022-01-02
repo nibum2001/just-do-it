@@ -4,6 +4,46 @@ import { RouterModule } from '@angular/router';
 @NgModule({
   imports: [
     RouterModule.forChild([
+      {
+        path: 'region',
+        data: { pageTitle: 'justDoItApp.region.home.title' },
+        loadChildren: () => import('./region/region.module').then(m => m.RegionModule),
+      },
+      {
+        path: 'country',
+        data: { pageTitle: 'justDoItApp.country.home.title' },
+        loadChildren: () => import('./country/country.module').then(m => m.CountryModule),
+      },
+      {
+        path: 'location',
+        data: { pageTitle: 'justDoItApp.location.home.title' },
+        loadChildren: () => import('./location/location.module').then(m => m.LocationModule),
+      },
+      {
+        path: 'department',
+        data: { pageTitle: 'justDoItApp.department.home.title' },
+        loadChildren: () => import('./department/department.module').then(m => m.DepartmentModule),
+      },
+      {
+        path: 'task',
+        data: { pageTitle: 'justDoItApp.task.home.title' },
+        loadChildren: () => import('./task/task.module').then(m => m.TaskModule),
+      },
+      {
+        path: 'employee',
+        data: { pageTitle: 'justDoItApp.employee.home.title' },
+        loadChildren: () => import('./employee/employee.module').then(m => m.EmployeeModule),
+      },
+      {
+        path: 'job',
+        data: { pageTitle: 'justDoItApp.job.home.title' },
+        loadChildren: () => import('./job/job.module').then(m => m.JobModule),
+      },
+      {
+        path: 'job-history',
+        data: { pageTitle: 'justDoItApp.jobHistory.home.title' },
+        loadChildren: () => import('./job-history/job-history.module').then(m => m.JobHistoryModule),
+      },
       /* jhipster-needle-add-entity-route - JHipster will add entity modules routes here */
     ]),
   ],
