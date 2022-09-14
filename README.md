@@ -1,4 +1,4 @@
-# JustDoIt
+# JustDoIt [![Java CI with Maven](https://github.com/nibum2001/just-do-it/actions/workflows/maven.yml/badge.svg)](https://github.com/nibum2001/just-do-it/actions/workflows/maven.yml)
 
 This application was generated using JHipster 7.5.0, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v7.5.0](https://www.jhipster.tech/documentation-archive/v7.5.0).
 
